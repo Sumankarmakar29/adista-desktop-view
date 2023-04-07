@@ -1,0 +1,104 @@
+
+
+ h1{
+   color: rgb(46, 46, 95);
+   margin-top: 80px;
+}
+p{
+  color: black;
+  margin-top: 20px;
+}
+.tag{
+ font-size: 55px;
+ color: rgb(46, 46, 95);
+}
+.top{
+  display: inline-block;
+}
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+.image{
+  width: 50px;
+  margin-top: 20px;
+  margin: 10px;
+}
+
+
+h2{
+  color: rgb(71, 71, 122);
+}
+
+.upper{
+  background-color: #a2a4a8;
+  height: 300px;
+}
+p{
+  color: black;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+section div{
+ padding: 10px;
+
+ width: 25% ;
+}
+section{
+width: 100%;
+background-color: white;
+display: flex;
+justify-content: end;
+}
+.div6{
+ flex-grow: 1;
+}
+.container{
+  margin-top: 40px;
+}
+
+.para {
+  transition: transform .2s;
+ 
+}
+
+.para:hover {
+  -ms-transform: scale(0.5); /* IE 9 */
+  -webkit-transform: scale(0.8); /* Safari 3-8 */
+  transform: scale(0.8); 
+  /* -ms-transform: scale(0.5); 
+  -webkit-transform: scale(1.1); 
+  transform: scale(0.8);  */
+}
+.para p {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+	color: transparent;
+	transition: 0.5s;
+}
+
+.para:hover p {
+	color: black;
+}
